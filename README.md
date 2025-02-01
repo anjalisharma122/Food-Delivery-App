@@ -21,3 +21,9 @@
 -Tree Shaking 
 -Different dev and proud bundles
 
+# JSX 
+-HTML-like or XML-like syntax
+(transpiled brfore going to js engine)-Parcel -Babel
+//JSX =>React.createElement(Parcel)=>ReactElement-JS Object=>HTMLElement(render)
+
+
