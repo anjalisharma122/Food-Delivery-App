@@ -7,7 +7,7 @@ const Body = ()=>{
             <div className="search">Search</div>
             <div className="res-container">
               {
-                resList.map(card => {
+                resList.map(card=> {
                   return <RestaurantCard key={card.id} resData={card} />
                 })
               }

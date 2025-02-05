@@ -10,10 +10,10 @@ const RestaurantCard = (props) =>{
       cuisines,
       costForTwo,
       
-     }=resData?.card?.card?.info;
+     }=resData?.info;
      const {
        deliveryTime 
-     }=resData?.card?.card?.info?.sla;
+     }=resData?.info?.sla ;
     
     return(
         <div className="res-card" style={{

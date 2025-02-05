@@ -1,854 +1,1241 @@
 const resList=[
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "23678",
-            "name": "McDonald's",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
-            "locality": "5th Block",
-            "areaName": "Koramangala",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-              "Burgers",
-              "Beverages",
-              "Cafe",
-              "Desserts"
-            ],
-            "avgRating": 4.5,
-            "parentId": "630",
-            "avgRatingString": "4.5",
-            "totalRatingsString": "63K+",
-            "promoted": true,
-            "adTrackingId": "cid=24846385~p=1~adgrpid=24846385#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=23678~eid=b9ba3042-61de-47fa-90a4-beb4dd94d24b~srvts=1738681394958~collid=83637",
-            "sla": {
-              "deliveryTime": 36,
-              "lastMileTravel": 1.3,
-              "serviceability": "SERVICEABLE",
-              "slaString": "35-40 mins",
-              "lastMileTravelString": "1.3 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-05 02:55:00",
-              "opened": true
-            },
-            "badges": {
-              "imageBadges": [
+  
                 {
-                  "imageId": "Rxawards/_CATEGORY-Burger.png",
-                  "description": "Delivery!"
-                }
-              ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "textBased": {
-                  
-                },
-                "imageBased": {
-                  "badgeObject": [
-                    {
-                      "attributes": {
-                        "imageId": "Rxawards/_CATEGORY-Burger.png",
-                        "description": "Delivery!"
-                      }
+                    "info" : {
+                      "id": "671928",
+                      "name": "KFC",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/377e9327-3ca7-48ac-b36c-96f5bf6e186a_671928.JPG",
+                      "locality": "7th Block",
+                      "areaName": "Koramangla",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Fast Food",
+                        "Rolls & Wraps"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "547",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "3.9K+",
+                      "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/kfc-7th-block-koramangla-rest671928",
+                      "type": "WEBLINK"
                     }
-                  ]
-                },
-                "textExtendedBadges": {
-                  
-                }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "ITEMS",
-              "subHeader": "AT ₹179",
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-            "campaignId": "24846385"
-          },
-          "analytics": {
-            
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=23678&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "341867",
-            "name": "Burger King",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/cab874d5-c7ed-4122-9eb9-935992f4bcee_341867.JPG",
-            "locality": "Forum Mall",
-            "areaName": "Adugodi",
-            "costForTwo": "₹350 for two",
-            "cuisines": [
-              "Burgers",
-              "American"
-            ],
-            "avgRating": 4.3,
-            "parentId": "166",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "6.5K+",
-            "sla": {
-              "deliveryTime": 52,
-              "lastMileTravel": 2.3,
-              "serviceability": "SERVICEABLE",
-              "slaString": "50-55 mins",
-              "lastMileTravelString": "2.3 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-05 00:00:00",
-              "opened": true
-            },
-            "badges": {
-              "imageBadges": [
-                {
-                  "imageId": "Rxawards/_CATEGORY-Burger.png",
-                  "description": "Delivery!"
-                }
-              ]
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "textBased": {
-                  
-                },
-                "imageBased": {
-                  "badgeObject": [
-                    {
-                      "attributes": {
-                        "imageId": "Rxawards/_CATEGORY-Burger.png",
-                        "description": "Delivery!"
-                      }
+                  },
+                  {
+                    "info": {
+                      "id": "23678",
+                      "name": "McDonald's",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/18/edc568f6-6813-4f2d-a670-911788f1f04f_23678.jpg",
+                      "locality": "5th Block",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Beverages",
+                        "Cafe",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "630",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "63K+",
+                      "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 1.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 02:55:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Burger.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/mcdonalds-5th-block-koramangala-rest23678",
+                      "type": "WEBLINK"
                     }
-                  ]
-                },
-                "textExtendedBadges": {
-                  
+                  },
+                  {
+                    "info": {
+                      "id": "5934",
+                      "name": "Burger King",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/7f76a072-c1bc-4d74-ac56-33e0eea20c1e_5934.JPG",
+                      "locality": "Koramangala",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "166",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "100K+",
+                      "sla": {
+                        "deliveryTime": 28,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 06:55:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Burger.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.2",
+                          "ratingCount": "4.0K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/burger-king-koramangala-rest5934",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "426776",
+                      "name": "Theobroma",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/2/d512978b-3dde-48b9-a974-ca7be403eef1_426776.jpg",
+                      "locality": "7th Block",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Desserts",
+                        "Bakery",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.7,
+                      "parentId": "1040",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "5.7K+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-05 23:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹36"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/theobroma-7th-block-koramangala-rest426776",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "263485",
+                      "name": "Chaayos Chai+Snacks=Relax",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/dfbcecfc-b380-4648-930a-b9b56b21e781_263485.JPG",
+                      "locality": "Kormangala 8th Block",
+                      "areaName": "Kormangala",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Beverages",
+                        "Chaat",
+                        "Desserts",
+                        "Home Food",
+                        "Italian",
+                        "Maharashtrian",
+                        "Snacks",
+                        "Street Food",
+                        "Sweets"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "281782",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "4.7K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 0.9,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "0.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 01:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹199"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/chaayos-chai-snacks-relax-8th-block-kormangala-rest263485",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "10820",
+                      "name": "California Burrito",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/3/0e28a355-210c-4fe3-9d60-596c7fc89ec6_10820.jpg",
+                      "locality": "Koramangala",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Mexican",
+                        "American",
+                        "Salads",
+                        "Continental",
+                        "Keto",
+                        "Healthy Food",
+                        "Beverages",
+                        "Snacks",
+                        "Desserts",
+                        "Fast Food"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "1252",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "41K+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 01:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Guiltfree.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Guiltfree.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "40% OFF",
+                        "subHeader": "UPTO ₹80"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.3",
+                          "ratingCount": "2.1K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/california-burrito-koramangala-rest10820",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "590119",
+                      "name": "Bakingo",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/7/180317b8-5564-4543-ae4d-6bbf0de3af9e_590119.jpg",
+                      "locality": "1st  Stage",
+                      "areaName": "BTM Layout",
+                      "costForTwo": "₹299 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Desserts",
+                        "Beverages",
+                        "Snacks"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "3818",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "7.8K+",
+                      "sla": {
+                        "deliveryTime": 31,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 01:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/bakingo-1st-stage-btm-layout-rest590119",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "11211",
+                      "name": "Taco Bell",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/4/95cca2be-d63c-4c0c-9014-10ecb27e31f6_11211.JPG",
+                      "locality": "Koramangala",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Mexican",
+                        "Fast Food",
+                        "Snacks"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "1557",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "25K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 1.8,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 01:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.2",
+                          "ratingCount": "5.8K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/taco-bell-koramangala-rest11211",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "65797",
+                      "name": "Leon's - Burgers & Wings (Leon Grill)",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+                      "locality": "Koramangala",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "American",
+                        "Snacks",
+                        "Turkish",
+                        "Portuguese",
+                        "Continental"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "371281",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "55K+",
+                      "sla": {
+                        "deliveryTime": 29,
+                        "lastMileTravel": 1.4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.4 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-05 23:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.5",
+                          "ratingCount": "4.6K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/leons-burgers-and-wings-leon-grill-koramangala-rest65797",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "737964",
+                      "name": "Wow! Momo",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/3/e3c426c2-a781-4afb-8061-f1bacde9fb0b_737964.JPG",
+                      "locality": "KORAMANGALA LAYOUT EXTENSION",
+                      "areaName": "KORAMANGALA",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Tibetan",
+                        "Healthy Food",
+                        "Asian",
+                        "Chinese",
+                        "Snacks",
+                        "Continental",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "1776",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "785",
+                      "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 0.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "0.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹89"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/wow-momo-layout-extension-koramangala-rest737964",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "48207",
+                      "name": "Kanti Sweets",
+                      "cloudinaryImageId": "edwvxmied0cj3m23gphk",
+                      "locality": "3rd Block",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹150 for two",
+                      "cuisines": [
+                        "Sweets"
+                      ],
+                      "avgRating": 4.6,
+                      "veg": true,
+                      "parentId": "4700",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "6.9K+",
+                      "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 0.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "0.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-05 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹25"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/kanti-sweets-3rd-block-koramangala-rest48207",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "656392",
+                      "name": "Subway",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/ccb97e93-5b1a-4e18-9dd7-3f635e2d5e94_656392.JPG",
+                      "locality": "1st Block",
+                      "areaName": "Koramangala",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "sandwich",
+                        "Salads",
+                        "wrap",
+                        "Healthy Food"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "2",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "3.4K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-02-06 03:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Sandwiches.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Sandwiches.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹119"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-37e4c848-2eeb-4dc4-a40d-e1da8c6588a6"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/bangalore/subway-1st-block-koramangala-rest656392",
+                      "type": "WEBLINK"
+                    }
                 }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "60% OFF",
-              "subHeader": "UPTO ₹120",
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
             
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=341867&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "958523",
-            "name": "BIMBOX - Burger In My Box",
-            "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/11/8815eaed-d5ce-4dea-a45a-da77048e5683_c7b6bf9e-3a78-4658-a52a-a3490f1d3df0.png",
-            "locality": "BTM",
-            "areaName": "BTM",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-              "Burgers"
-            ],
-            "avgRating": 4.3,
-            "parentId": "304996",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "159",
-            "promoted": true,
-            "adTrackingId": "cid=24662510~p=4~adgrpid=24662510#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=958523~eid=4ee5e8bf-4fcc-4938-bf2c-e7c7987cabc5~srvts=1738681394958~collid=83637",
-            "sla": {
-              "deliveryTime": 46,
-              "lastMileTravel": 4.1,
-              "serviceability": "SERVICEABLE",
-              "slaString": "45-50 mins",
-              "lastMileTravelString": "4.1 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-05 07:59:00",
-              "opened": true
-            },
-            "badges": {
-              
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "textBased": {
-                  
-                },
-                "imageBased": {
-                  
-                },
-                "textExtendedBadges": {
-                  
-                }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "ITEMS",
-              "subHeader": "AT ₹69",
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "isNewlyOnboarded": true,
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-            "campaignId": "24662510"
-          },
-          "analytics": {
             
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=958523&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "671928",
-            "name": "KFC",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/377e9327-3ca7-48ac-b36c-96f5bf6e186a_671928.JPG",
-            "locality": "7th Block",
-            "areaName": "Koramangla",
-            "costForTwo": "₹400 for two",
-            "cuisines": [
-              "Burgers",
-              "Fast Food",
-              "Rolls & Wraps"
-            ],
-            "avgRating": 4.3,
-            "parentId": "547",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "3.9K+",
-            "sla": {
-              "deliveryTime": 36,
-              "lastMileTravel": 1.2,
-              "serviceability": "SERVICEABLE",
-              "slaString": "35-40 mins",
-              "lastMileTravelString": "1.2 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-05 02:00:00",
-              "opened": true
-            },
-            "badges": {
-              
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "textBased": {
-                  
-                },
-                "imageBased": {
-                  
-                },
-                "textExtendedBadges": {
-                  
-                }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "ITEMS",
-              "subHeader": "AT ₹59",
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-            
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=671928&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "830625",
-            "name": "Ande ka funda",
-            "cloudinaryImageId": "5727d32443b403d22b4869346d74193f",
-            "locality": "5th Cross Road",
-            "areaName": "BTM",
-            "costForTwo": "₹249 for two",
-            "cuisines": [
-              "Chinese"
-            ],
-            "avgRating": 4.3,
-            "parentId": "15677",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "360",
-            "promoted": true,
-            "adTrackingId": "cid=24864303~p=5~adgrpid=24864303#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=830625~eid=2555ace5-fabb-4b41-8893-8c1db41de7c9~srvts=1738681394958~collid=83637",
-            "sla": {
-              "deliveryTime": 35,
-              "lastMileTravel": 3,
-              "serviceability": "SERVICEABLE",
-              "slaString": "30-35 mins",
-              "lastMileTravelString": "3.0 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-04 23:45:00",
-              "opened": true
-            },
-            "badges": {
-              
-            },
-            "isOpen": true,
-            "aggregatedDiscountInfoV2": {
-              
-            },
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "imageBased": {
-                  
-                },
-                "textExtendedBadges": {
-                  
-                },
-                "textBased": {
-                  
-                }
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-            "campaignId": "24864303"
-          },
-          "analytics": {
-            
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=830625&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "231138",
-            "name": "BOSS Burger",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/16/2bbce76d-267c-4b56-9a2b-d3e6a0d213fb_231138.jpg",
-            "locality": "7th Block",
-            "areaName": "Koramangala",
-            "costForTwo": "₹500 for two",
-            "cuisines": [
-              "Burgers",
-              "American",
-              "Fast Food",
-              "Snacks"
-            ],
-            "avgRating": 4.3,
-            "parentId": "8594",
-            "avgRatingString": "4.3",
-            "totalRatingsString": "2.4K+",
-            "sla": {
-              "deliveryTime": 45,
-              "lastMileTravel": 1.3,
-              "serviceability": "SERVICEABLE",
-              "slaString": "45-50 mins",
-              "lastMileTravelString": "1.3 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-04 23:30:00",
-              "opened": true
-            },
-            "badges": {
-              
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "textBased": {
-                  
-                },
-                "imageBased": {
-                  
-                },
-                "textExtendedBadges": {
-                  
-                }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "₹125 OFF",
-              "subHeader": "ABOVE ₹249",
-              "discountTag": "FLAT DEAL",
-              "discountCalloutInfo": {
-                "message": "Free Delivery",
-                "logoCtx": {
-                  "logo": "v1655895371/free_delivery_logo_hqipbo.png"
-                }
-              },
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-            
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=231138&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    },
-    {
-      "card": {
-        "card": {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-            "id": "901671",
-            "name": "Royal Box",
-            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/28/57e85ac9-810c-4799-9fe5-89be472a3ab7_901671.jpg",
-            "locality": "BTM Layout, B.B.M.P South",
-            "areaName": "Eshwara Nelaya",
-            "costForTwo": "₹300 for two",
-            "cuisines": [
-              "Burger",
-              "Rolls & Wraps",
-              "American",
-              "Fast Food"
-            ],
-            "avgRating": 3.7,
-            "parentId": "524330",
-            "avgRatingString": "3.7",
-            "totalRatingsString": "127",
-            "promoted": true,
-            "adTrackingId": "cid=24661769~p=6~adgrpid=24661769#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=901671~eid=3913ccf4-accf-48cd-b040-cba770a883b7~srvts=1738681394958~collid=83637",
-            "sla": {
-              "deliveryTime": 55,
-              "lastMileTravel": 3,
-              "serviceability": "SERVICEABLE",
-              "slaString": "50-55 mins",
-              "lastMileTravelString": "3.0 km",
-              "iconType": "ICON_TYPE_EMPTY"
-            },
-            "availability": {
-              "nextCloseTime": "2025-02-05 05:00:00",
-              "opened": true
-            },
-            "badges": {
-              
-            },
-            "isOpen": true,
-            "type": "F",
-            "badgesV2": {
-              "entityBadges": {
-                "imageBased": {
-                  
-                },
-                "textExtendedBadges": {
-                  
-                },
-                "textBased": {
-                  
-                }
-              }
-            },
-            "aggregatedDiscountInfoV3": {
-              "header": "60% OFF",
-              "subHeader": "UPTO ₹120",
-              "logoCtx": {
-                "text": "BENEFITS"
-              }
-            },
-            "orderabilityCommunication": {
-              "title": {
-                
-              },
-              "subTitle": {
-                
-              },
-              "message": {
-                
-              },
-              "customIcon": {
-                
-              },
-              "commsStyling": {
-                
-              }
-            },
-            "differentiatedUi": {
-              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-              "differentiatedUiMediaDetails": {
-                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                "lottie": {
-                  
-                },
-                "video": {
-                  
-                }
-              }
-            },
-            "reviewsSummary": {
-              
-            },
-            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            "restaurantOfferPresentationInfo": {
-              
-            },
-            "externalRatings": {
-              "aggregatedRating": {
-                "rating": "--"
-              }
-            },
-            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-            "campaignId": "24661769"
-          },
-          "analytics": {
-            
-          },
-          "cta": {
-            "link": "swiggy://menu?restaurant_id=901671&source=collection&query=Burger",
-            "text": "RESTAURANT_MENU",
-            "type": "DEEPLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-        },
-        "relevance": {
-          "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-          "sectionId": "MENU_RETURN_FOOD"
-        }
-      }
-    }
-  ] 
-
+          
+]
 export default resList;
