@@ -17,8 +17,8 @@
 
 
 - Two types of Export /Import
-
-    -export default Component;
+    - Default Import /Export
+        -export default Component;
         -import Component from "path";
 
     - Named Export/Import
