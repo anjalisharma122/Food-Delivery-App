@@ -215,7 +215,7 @@ const resList=[
                         "Burgers",
                         "American"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 3.8,
                       "parentId": "166",
                       "avgRatingString": "4.3",
                       "totalRatingsString": "100K+",
@@ -324,7 +324,7 @@ const resList=[
                         "Bakery",
                         "Beverages"
                       ],
-                      "avgRating": 4.7,
+                      "avgRating": 3,
                       "parentId": "1040",
                       "avgRatingString": "4.7",
                       "totalRatingsString": "5.7K+",
@@ -845,7 +845,7 @@ const resList=[
                         "Portuguese",
                         "Continental"
                       ],
-                      "avgRating": 4.5,
+                      "avgRating": 3.5,
                       "parentId": "371281",
                       "avgRatingString": "4.5",
                       "totalRatingsString": "55K+",
