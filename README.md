@@ -27,4 +27,6 @@
         -import {Component} from "path" ;
 
         # React Hooks 
-            (Normal JS utility function)
+            (Normal JS utility function);
+            -useState()
+            -useEffect()
