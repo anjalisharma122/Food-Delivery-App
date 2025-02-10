@@ -86,3 +86,9 @@ body {
     
     
 }
+.filter{
+    display:flex;
+}
+.search{
+    padding:8px;
+}
