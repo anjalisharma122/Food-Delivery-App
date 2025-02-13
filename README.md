@@ -30,3 +30,7 @@
             (Normal JS utility function);
             -useState()
             -useEffect()
+
+        # Routing in webApp :
+        -Client Side routing 
+        -Server side routing 
