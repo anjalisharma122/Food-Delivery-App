@@ -1,7 +1,7 @@
 import React from "react";
 
 class UserClass extends React.Component {
-    constuctor(props){
+    constructor(props){
         super(props);
 
         console.log(props);
