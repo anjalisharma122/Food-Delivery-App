@@ -15,7 +15,7 @@ const RestaurantCard = (props) =>{
        deliveryTime 
      }=resData?.info?.sla ;
     
-    return(
+    return( 
         <div className="m-4 p-4 w-[245px] rounded bg-gray-50 hover:bg-gray-200" style={{
             
         }}>

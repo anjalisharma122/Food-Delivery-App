@@ -11,6 +11,8 @@ const Body = ()=>{
   const [searchText ,setSearchText]= useState("");
   const [filteredRestaurants ,setFilteredRestaurants] = useState([]);
 
+  console.log("Body Rendered " ,listOfRestaurants);
+
   
   
 
