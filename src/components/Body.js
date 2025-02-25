@@ -29,7 +29,7 @@ const Body = ()=>{
       );
   
       const json = await data.json();
-      console.log(json);
+     
       setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
    
     setFilteredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
@@ -59,7 +59,7 @@ const Body = ()=>{
                   setSearchText(e.target.value);
                 }}/>
                 <button  className="px-4 py-2 bg-green-100 m-4 rounded-lg"  onClick={ ()=>{
-                  console.log(searchText);
+                  
                   const filteredRestaurant =
                   listOfRestaurants.filter((res)=>
                     res.info.name.toLowerCase().includes(searchText.toLowerCase()));
