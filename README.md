@@ -34,3 +34,14 @@
         # Routing in webApp :
         -Client Side routing 
         -Server side routing 
+
+
+
+
+# Redux ToolKit
+    -Install @reduxjs/toolkit and react-redux
+    -Build our own store
+    -Connect our store to our app
+    -Slice(cartSlice)
+    -Dispatch (action)
+    -Selector

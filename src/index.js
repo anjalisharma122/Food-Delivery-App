@@ -8,15 +8,20 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import { createBrowserRouter ,RouterProvider,Outlet } from "react-router-dom";
 import Shimmer from "./components/Shimmer";
 const About =lazy(()=> import ("./components/About"));
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 
 const Grocery =lazy(()=> import ("./components/Grocery"));
 const AppLayout = ()=>{
     return (
-    <div className="index">
+    <Provider store={appStore}>
+        <div className="index">
         <Header />
         <Outlet />
     </div>
+    </Provider>
+   
     );
     
 };
