@@ -58,7 +58,7 @@ const Body = ()=>{
                 onChange={(e)=>{
                   setSearchText(e.target.value);
                 }}/>
-                <button  className="px-4 py-2 bg-green-100 m-4 rounded-lg"  onClick={ ()=>{
+                <button  className="px-4 py-2 bg-green-100 m-4 rounded-lg cursor-pointer"  onClick={ ()=>{
                   
                   const filteredRestaurant =
                   listOfRestaurants.filter((res)=>
@@ -71,12 +71,12 @@ const Body = ()=>{
               </div>
               <div className= "search m-4 p-4 flex items-center">
               <button 
-               className ="px-3 py-1 bg-gray-100 rounded-lg"  
+               className ="px-3 py-1 bg-gray-100 rounded-lg cursor-pointer"  
               onClick={()=>{
                 const filteredList = listOfRestaurants.filter(
-                  (res)=>res.info.avgRating>4
+                  (res)=>res.info.avgRating>4.5
                 );
-                setListOfRestaurants(filteredList);
+                setFilteredRestaurants(filteredList);
                 
               }}
              

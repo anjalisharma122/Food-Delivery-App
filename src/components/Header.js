@@ -1,5 +1,5 @@
 
-import {LOGO_URL} from "../utils/constants";
+import logo from "../utils/logo.png"
 import {useState ,useContext} from "react";
 import {Link} from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -19,10 +19,10 @@ const Header = () =>{
     
 
     return(
-        <div className="flex justify-between drop-shadow-lg   bg-white"> 
+        <div className="flex justify-between drop-shadow-lg   bg-amber-50"> 
             <div className="logo-container">
-                <img className="w-44"
-                src= {LOGO_URL}
+                <img className="w-28 p-2 mx-2"
+                src= {logo}
                 />
             </div>
             <div className="flex items-center">
@@ -40,7 +40,9 @@ const Header = () =>{
                     <li className="px-4 font-semibold text-xl">
                         <Link to = "./grocery">Grocery</Link>
                     </li>
-                    <li className="px-4 font-semibold text-xl">Cart-({cartItems.length}items)</li>
+                    <li className="px-4 font-semibold text-xl">
+                        <Link to="./cart">Cart-({cartItems.length}items)</Link>
+                    </li>
                     <button className ="font-semibold text-xl" 
                         onClick={()=>{
                         btnNameReact=== "Login"? setBtnNameReact("Logout") :
