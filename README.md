@@ -45,3 +45,12 @@
     -Slice(cartSlice)
     -Dispatch (action)
     -Selector
+
+# Setting up Testing in our app
+ -Install React Testing Library
+ -Installed jest
+ -Installed Babel dependencies
+ -Configure Babel
+ -Configure Parcel Config file to disable default babel transpilation
+ -Jest -npx jest --init
+ -Install jsdom library
