@@ -193,6 +193,13 @@ const config = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+  setupFilesAfterEnv: ["C:/Users/Ritik sharma/OneDrive/Desktop/ReactApp/jest.setup.js"],
+
+  moduleNameMapper: {
+    "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js",
+  },
 };
+
+
 
 export default config;
