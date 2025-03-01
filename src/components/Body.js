@@ -14,7 +14,7 @@ const Body = ()=>{
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard );
 
   // restaurantData.isPromoted =restaurantData.avgRating >4.5;
-  console.log("Body Rendered " ,listOfRestaurants);
+  // console.log("Body Rendered " ,listOfRestaurants);
 
   
   

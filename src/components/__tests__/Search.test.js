@@ -1,9 +1,9 @@
 import { render ,screen ,fireEvent} from "@testing-library/react";
 import Body from "../Body";
-import {act} from "react-dom/test-utils";
+import {act} from "react";
 import { BrowserRouter } from "react-router-dom";
 import MOCK_DATA from "../mocks/mockResListData.json";
-import "@testing-library/jest-dom";
+import "@testing-library/react";
 
 
 global.fetch = jest.fn(()=>{
@@ -39,3 +39,25 @@ test("Should search resList for burger text input" ,async()=>{
 
         expect(searchBtn).toBeInTheDocument();
 });
+
+test("Should filter top rated restaurant" ,async()=>{
+    await act(async()=>render(
+        <BrowserRouter>
+            <Body />
+
+        </BrowserRouter>
+    )
+);
+    const cardsBeforeFilter = screen.getAllByTestId("resCard");
+    expect(cardsBeforeFilter.length).toBe(20);
+
+    const topRatedBtn =screen.getByRole("button" ,{name: "Top Rated Restaurants"});
+    fireEvent.click(topRatedBtn);
+
+    const cardsAfterFilter = screen.getAllByTestId("resCard");
+    expect(cardsAfterFilter.length).toBe(4);
+
+
+
+
+})
