@@ -196,9 +196,9 @@ const config = {
   setupFilesAfterEnv: ["C:/Users/Ritik sharma/OneDrive/Desktop/ReactApp/jest.setup.js"],
 
   moduleNameMapper: {
-    "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js",
+    "\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/__mocks__/fileMock.js"
   },
-};
+};  
 
 
 
