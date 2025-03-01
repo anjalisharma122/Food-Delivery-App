@@ -17,7 +17,7 @@ const RestaurantCard = (props) =>{
      }=resData?.info?.sla ;
     
     return( 
-        <div data-testid="resCard" className="m-4 p-4 w-[245px] rounded bg-gray-50 hover:bg-gray-200" style={{
+        <div data-testid="resCard" className="m-4 p-4 w-[245px] rounded-2xl bg-[#FDF7E3] hover:bg-gray-200  shadow-2" style={{
             
         }}>
             <img 
