@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1740832860633" clover="3.2.0">
-  <project timestamp="1740832860634" name="All files">
-    <metrics statements="34" coveredstatements="26" conditionals="6" coveredconditionals="5" methods="12" coveredmethods="7" elements="52" coveredelements="38" complexity="0" loc="34" ncloc="34" packages="1" files="2" classes="2"/>
+<coverage generated="1740834839383" clover="3.2.0">
+  <project timestamp="1740834839383" name="All files">
+    <metrics statements="34" coveredstatements="30" conditionals="6" coveredconditionals="5" methods="12" coveredmethods="10" elements="52" coveredelements="45" complexity="0" loc="34" ncloc="34" packages="1" files="2" classes="2"/>
     <file name="Body.js" path="C:\Users\Ritik sharma\OneDrive\Desktop\ReactApp\src\components\Body.js">
-      <metrics statements="25" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="4"/>
+      <metrics statements="25" coveredstatements="21" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="7"/>
       <line num="8" count="1" type="stmt"/>
-      <line num="10" count="2" type="stmt"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="22" count="4" type="stmt"/>
       <line num="23" count="1" type="stmt"/>
-      <line num="26" count="2" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
       <line num="27" count="1" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
       <line num="33" count="1" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
-      <line num="37" count="2" type="stmt"/>
-      <line num="39" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="37" count="4" type="stmt"/>
+      <line num="39" count="4" type="cond" truecount="1" falsecount="1"/>
       <line num="40" count="0" type="stmt"/>
-      <line num="48" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="59" count="0" type="stmt"/>
-      <line num="64" count="0" type="stmt"/>
-      <line num="65" count="0" type="stmt"/>
-      <line num="66" count="0" type="stmt"/>
-      <line num="76" count="0" type="stmt"/>
+      <line num="48" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="20" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
       <line num="77" count="0" type="stmt"/>
-      <line num="79" count="0" type="stmt"/>
-      <line num="90" count="20" type="stmt"/>
+      <line num="78" count="0" type="stmt"/>
+      <line num="80" count="0" type="stmt"/>
+      <line num="91" count="42" type="stmt"/>
     </file>
     <file name="RestaurantCard.js" path="C:\Users\Ritik sharma\OneDrive\Desktop\ReactApp\src\components\RestaurantCard.js">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="4" count="21" type="stmt"/>
-      <line num="5" count="21" type="stmt"/>
-      <line num="14" count="21" type="stmt"/>
-      <line num="17" count="21" type="stmt"/>
-      <line num="19" count="21" type="stmt"/>
-      <line num="39" count="2" type="stmt"/>
-      <line num="40" count="2" type="stmt"/>
-      <line num="41" count="4" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="44" type="stmt"/>
+      <line num="5" count="44" type="stmt"/>
+      <line num="14" count="44" type="stmt"/>
+      <line num="17" count="44" type="stmt"/>
+      <line num="19" count="44" type="stmt"/>
+      <line num="39" count="3" type="stmt"/>
+      <line num="40" count="4" type="stmt"/>
+      <line num="41" count="8" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -1,4 +1,4 @@
-import { render ,screen } from "@testing-library/react";
+import { render ,screen ,fireEvent} from "@testing-library/react";
 import Body from "../Body";
 import {act} from "react-dom/test-utils";
 import { BrowserRouter } from "react-router-dom";
@@ -16,7 +16,7 @@ global.fetch = jest.fn(()=>{
 
 
 
-test("Should render the body component" ,async()=>{
+test("Should search resList for burger text input" ,async()=>{
     await act(async()=>render(
         <BrowserRouter>
             <Body />
@@ -24,9 +24,18 @@ test("Should render the body component" ,async()=>{
         </BrowserRouter>
     )
 );
-
+    const cardsBeforeSearch = screen.getAllByTestId("resCard");
+    expect(cardsBeforeSearch.length).toBe(20);
 
         const searchBtn =screen.getByRole("button" , {name:"Search"});
-        console.log(searchBtn);
+        
+        const searchInput =screen.getByTestId("searchInput");
+
+        fireEvent.change(searchInput ,{target:{value: "burger"}});
+        fireEvent.click(searchBtn);
+
+        const cardsAfterSearch =screen.getAllByTestId("resCard");
+        expect(cardsAfterSearch.length).toBe(2);
+
         expect(searchBtn).toBeInTheDocument();
 });
