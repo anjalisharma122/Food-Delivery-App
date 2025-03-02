@@ -17,11 +17,9 @@ const RestaurantCard = (props) =>{
      }=resData?.info?.sla ;
     
     return( 
-        <div data-testid="resCard" className="m-4 p-4 w-[245px] rounded-2xl bg-[#FDF7E3] hover:bg-gray-200  shadow-2" style={{
-            
-        }}>
+        <div data-testid="resCard" className="m-4 p-4 w-[245px] rounded-2xl bg-[#FDF7E3] hover:bg-gray-200 border-t-2 border-r-1  border-gray-300 transition-all duration-300">
             <img 
-            className="rounded -lg"
+            className="rounded-lg  w-full h-40 object-cover rounded-t-2xl"
             alt="res-card"
             src= {CDN_URL+cloudinaryImageId }
              /> 
@@ -32,8 +30,10 @@ const RestaurantCard = (props) =>{
             <h4>{deliveryTime} minutes</h4>
 
         </div>
+        
     );
 };
+
 
 
 export const withPromotedLabel = (RestaurantCard) =>{

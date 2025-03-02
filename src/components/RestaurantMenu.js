@@ -34,9 +34,9 @@ const RestaurantMenu =()=>{
     return ( 
         
             
-        <div>
-        <div className="flex justify-center items-center">
-        <div className ="bg-white shadow-xl  shadow-gray-300  rounded-3xl p-6  m-6 w-5xl  border border-gray-200  ">
+        <div className="bg-[#FDF7E3] min-h-screen">
+        <div className="flex justify-center items-center ">
+        <div className ="shadow-xl  shadow-gray-300  rounded-3xl p-6  m-6 w-5xl  border border-gray-200 bg-[#FDF7E3] ">
             <h1 className="text-3xl font-bold text-gray-900 ">{name}</h1>
             <div className="flex items-center space-x-2 mt-3">
             <p className="font-bold text-gray-800 text-lg">❇️{avgRating}</p>
@@ -44,15 +44,16 @@ const RestaurantMenu =()=>{
             </div>
             
             <div className="mt-1">
-            <p className="text-red-400 font-bold text-xl underline">{cuisines.join(" , ")} </p>
+            <p className="text-[#2F402F] font-bold text-xl underline">{cuisines.join(" , ")} </p>
             </div>
         </div>
           
         </div>
-        <div className="text-center">
+        <div className="text-center bg-[#FDF7E3]">
           {/*category accordian*/ }
           {categories.map((category,index)=>(
           <RestaurantCategory 
+          
             key={category?.card?.card?.title} 
             data={category?.card?.card}
             showItem ={index===showIndex ? true :false }

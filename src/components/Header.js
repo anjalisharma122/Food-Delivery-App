@@ -27,10 +27,12 @@ const Header = () =>{
 
     return(
         <div className="flex justify-between drop-shadow-xl bg-[#9BA38E]"> 
-            <div className="logo-container">
+            <div className="logo-container flex items-center space-x-2 ">
                 <img className="w-28 mx-2"
                 src= {logo}
                 />
+                <h1 className="text-3xl font-extrabold text-gray-900 tracking-wide font-['Poppins']">Bitezy</h1>
+
             </div>
             <div className="flex items-center">
                 <ul  className ="flex p-4 m-4">
